@@ -1018,3 +1018,10 @@ li :hover {
 }
 
 /* vendo alteracao */
+
+@media only screen and (max-width: 1080px) {
+  * {
+    overflow-x: hidden;
+    overflow-x: hidden;
+  }
+}
