@@ -307,6 +307,8 @@ li :hover {
 @media only screen and (max-width: 1080px) {
   html {
     overflow-x: hidden;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 @media only screen and (max-width: 1080px) {
