@@ -1,0 +1,59 @@
+echo arqIgn
+
+# ignore ALL .log files
+
+**/exemplo_git
+
+*.log
+#################################################################################################################
+# ignore ALL files in ANY directory named temp
+
+temp/
+                                                                                                                
+                                                                                                                //cria o reepositorio no git e inicia //
+                                                                                                                
+                                                                                                                # git init
+                                                                                                                
+                                                                                                                // ver status do git
+                                                                                                                
+                                                                                                                # git status
+                                                                                                                
+                                                                                                                // criar um novo estado para o git , para commitar
+                                                                                                                
+                                                                                                                # git add
+                                                                                                                
+                                                                                                                //adiciona o arquivo do git em novo estado //com asterisco add todos os arquivos
+                                                                                                                
+                                                                                                                # git add \*
+                                                                                                                
+                                                                                                                //reseta os arquivo em umodfide (para todos os aqrquivos usar \*)
+                                                                                                                
+                                                                                                                # git reset
+                                                                                                                
+                                                                                                                //faz commit do arquivo paraa staged
+                                                                                                                
+                                                                                                                # git commit -m "nome que quizer dar para o commit"
+                                                                                                                
+                                                                                                                //para ver tudo e quem esta fazendo alteracoes no git//
+                                                                                                                
+                                                                                                                # git log
+                                                                                                                
+                                                                                                                // para criar uma nova branch //
+                                                                                                                
+                                                                                                                # git branch nome da braanch
+                                                                                                                
+                                                                                                                //para mudar para outra branch //
+                                                                                                                
+                                                                                                                # git checkout nome_da_branch
+                                                                                                                
+                                                                                                                // para mesclar as branch //
+                                                                                                                
+                                                                                                                # git merge nome_da_branch
+                                                                                                                
+                                                                                                                // mostra as branch exixtente
+                                                                                                                
+                                                                                                                # git branch ..
+
+                                                                                                                // deleta uma branch
+                                                                                                                
+                                                                                                                # git branch -d nome_da_branch
