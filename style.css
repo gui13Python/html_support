@@ -592,6 +592,7 @@ li :hover {
     padding: 0px;
     margin-left: 10px;
     width: 400px;
+    margin-bottom: 50px;
   }
 }
 @media only screen and (max-width: 1080px) {
