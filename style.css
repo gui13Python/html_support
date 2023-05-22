@@ -1024,22 +1024,41 @@ li :hover {
     overflow-x: hidden;
     padding-left: 0px;
     padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-width: 100%;
     
     
   }
 }
 
+@media only screen and (max-width: 1080px){
+  .sesao1, .sesao2{
+    overflow-x: hidden;
+  
+}}
+
+
+@media only screen and (max-width: 1080px){
+  body{
+    overflow-x: hidden;
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 100%;
+}}
+
 
 @media only screen and (max-width: 1080px) {
   .link ul {
     height: 100px;
+    width: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-decoration: none;
-    margin: 0px !important;
-    margin-right: 150px !important;
-    margin-top: 100px !important;
+    margin-left: auto!important;
+    margin-right: auto !important;
+    margin-top: 130px !important;
   }
 }
 
